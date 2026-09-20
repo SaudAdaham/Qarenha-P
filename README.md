@@ -1,4 +1,123 @@
 <link rel="stylesheet" href="qarenha.css" />
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>قارنها</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="qarenha.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap header-row">
+      <a class="logo" href="#">
+        <span class="mark">ق</span>
+        <span>
+          <strong>قارنها</strong>
+          <small>مقارنة الأسعار</small>
+        </span>
+      </a>
+      <p class="muted" style="margin-inline-start: auto;">قارن أكثر، وادفع أقل</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <span class="tag">قارن أكثر، وادفع أقل</span>
+      <h1>ابحث مرة واحدة<span>وقارن أفضل الأسعار</span></h1>
+      <p class="lead">
+        قارنها يجمع عروض المتاجر السعودية في نتيجة واحدة:
+        السعر، المتجر، والمواصفات، ثم يرسلك إلى أرخص عرض.
+      </p>
+
+      <form class="searchbar" action="#" method="get">
+        <input type="search" name="q" placeholder="ابحث عن منتج، موديل، أو باركود..." aria-label="بحث عن منتج" />
+        <button class="btn" type="submit">قارن الأسعار</button>
+      </form>
+
+      <div class="chips">
+        <button class="chip" type="button">آيفون 16</button>
+        <button class="chip" type="button">Galaxy S25</button>
+        <button class="chip" type="button">AirPods Pro</button>
+        <button class="chip" type="button">دايسون</button>
+        <button class="chip" type="button">عطر ديور</button>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="wrap grid-3">
+        <div class="feature">
+          <h3>بحث عربي وإنجليزي</h3>
+          <p>آيفون أو iPhone، نفس النتيجة. يدعم الموديل والباركود.</p>
+        </div>
+        <div class="feature">
+          <h3>توحيد المنتجات</h3>
+          <p>العناوين المختلفة لنفس الجهاز تُجمع في بطاقة مقارنة واحدة.</p>
+        </div>
+        <div class="feature">
+          <h3>انتقال مباشر للمتجر</h3>
+          <p>زر واحد يفتح صفحة المنتج في أمازون أو نون أو جرير.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <h2>مثال نتيجة بحث</h2>
+      <p class="muted">آيفون 16 سعة 128GB أسود</p>
+
+      <article class="item" style="margin-top: 24px;">
+        <div class="item-top">
+          <div class="art"><b>ق</b></div>
+          <div>
+            <div class="muted">أبل · Apple</div>
+            <h3>آيفون 16 سعة 128GB أسود</h3>
+            <p class="muted">iPhone 16 128GB Black</p>
+          </div>
+        </div>
+        <div class="item-bottom">
+          <div>
+            <div class="muted">أفضل سعر</div>
+            <div class="price" style="font-size: 28px;">3,209 ر.س</div>
+            <p class="muted">لدى أمازون · وفّرت 350 ر.س عن أعلى سعر</p>
+          </div>
+          <div>
+            <a class="btn btn-sm" href="https://www.amazon.sa/s?k=iPhone+16+128GB">انتقل إلى المتجر</a>
+          </div>
+        </div>
+        <div class="offers">
+          <div class="offer best"><span>أمازون</span><strong>3,209 ر.س</strong></div>
+          <div class="offer"><span>نون</span><strong>3,329 ر.س</strong></div>
+          <div class="offer"><span>إكسترا</span><strong>3,379 ر.س</strong></div>
+          <div class="offer"><span>جرير</span><strong>3,449 ر.س</strong></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section wrap">
+      <h2>تصفح حسب الفئة</h2>
+      <div class="cats">
+        <button class="cat" type="button">إلكترونيات</button>
+        <button class="cat" type="button">ملابس وأزياء</button>
+        <button class="cat" type="button">جمال وعناية</button>
+        <button class="cat" type="button">صحة وصيدلية</button>
+        <button class="cat" type="button">المنزل</button>
+        <button class="cat" type="button">قطع السيارات</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© 2026 قارنها — السعر النهائي يظهر في المتجر</p>
+    </div>
+  </footer>
+</body>
+</html>
+
 :root {
   --bg: #f3f0ea;
   --surface: #fffcf7;
@@ -284,121 +403,3 @@ footer {
   .searchbar { flex-direction: column; }
   .searchbar .btn { width: 100%; }
 }
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>قارنها</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="qarenha.css" />
-</head>
-<body>
-  <header>
-    <div class="wrap header-row">
-      <a class="logo" href="#">
-        <span class="mark">ق</span>
-        <span>
-          <strong>قارنها</strong>
-          <small>مقارنة الأسعار</small>
-        </span>
-      </a>
-      <p class="muted" style="margin-inline-start: auto;">قارن أكثر، وادفع أقل</p>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero wrap">
-      <span class="tag">قارن أكثر، وادفع أقل</span>
-      <h1>ابحث مرة واحدة<span>وقارن أفضل الأسعار</span></h1>
-      <p class="lead">
-        قارنها يجمع عروض المتاجر السعودية في نتيجة واحدة:
-        السعر، المتجر، والمواصفات، ثم يرسلك إلى أرخص عرض.
-      </p>
-
-      <form class="searchbar" action="#" method="get">
-        <input type="search" name="q" placeholder="ابحث عن منتج، موديل، أو باركود..." aria-label="بحث عن منتج" />
-        <button class="btn" type="submit">قارن الأسعار</button>
-      </form>
-
-      <div class="chips">
-        <button class="chip" type="button">آيفون 16</button>
-        <button class="chip" type="button">Galaxy S25</button>
-        <button class="chip" type="button">AirPods Pro</button>
-        <button class="chip" type="button">دايسون</button>
-        <button class="chip" type="button">عطر ديور</button>
-      </div>
-    </section>
-
-    <section class="features">
-      <div class="wrap grid-3">
-        <div class="feature">
-          <h3>بحث عربي وإنجليزي</h3>
-          <p>آيفون أو iPhone، نفس النتيجة. يدعم الموديل والباركود.</p>
-        </div>
-        <div class="feature">
-          <h3>توحيد المنتجات</h3>
-          <p>العناوين المختلفة لنفس الجهاز تُجمع في بطاقة مقارنة واحدة.</p>
-        </div>
-        <div class="feature">
-          <h3>انتقال مباشر للمتجر</h3>
-          <p>زر واحد يفتح صفحة المنتج في أمازون أو نون أو جرير.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section wrap">
-      <h2>مثال نتيجة بحث</h2>
-      <p class="muted">آيفون 16 سعة 128GB أسود</p>
-
-      <article class="item" style="margin-top: 24px;">
-        <div class="item-top">
-          <div class="art"><b>ق</b></div>
-          <div>
-            <div class="muted">أبل · Apple</div>
-            <h3>آيفون 16 سعة 128GB أسود</h3>
-            <p class="muted">iPhone 16 128GB Black</p>
-          </div>
-        </div>
-        <div class="item-bottom">
-          <div>
-            <div class="muted">أفضل سعر</div>
-            <div class="price" style="font-size: 28px;">3,209 ر.س</div>
-            <p class="muted">لدى أمازون · وفّرت 350 ر.س عن أعلى سعر</p>
-          </div>
-          <div>
-            <a class="btn btn-sm" href="https://www.amazon.sa/s?k=iPhone+16+128GB">انتقل إلى المتجر</a>
-          </div>
-        </div>
-        <div class="offers">
-          <div class="offer best"><span>أمازون</span><strong>3,209 ر.س</strong></div>
-          <div class="offer"><span>نون</span><strong>3,329 ر.س</strong></div>
-          <div class="offer"><span>إكسترا</span><strong>3,379 ر.س</strong></div>
-          <div class="offer"><span>جرير</span><strong>3,449 ر.س</strong></div>
-        </div>
-      </article>
-    </section>
-
-    <section class="section wrap">
-      <h2>تصفح حسب الفئة</h2>
-      <div class="cats">
-        <button class="cat" type="button">إلكترونيات</button>
-        <button class="cat" type="button">ملابس وأزياء</button>
-        <button class="cat" type="button">جمال وعناية</button>
-        <button class="cat" type="button">صحة وصيدلية</button>
-        <button class="cat" type="button">المنزل</button>
-        <button class="cat" type="button">قطع السيارات</button>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap">
-      <p>© 2026 قارنها — السعر النهائي يظهر في المتجر</p>
-    </div>
-  </footer>
-</body>
-</html>
-
