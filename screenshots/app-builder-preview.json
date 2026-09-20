@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "قارنها — ابحث مرة واحدة وقارن قبل أن تشتري",
+      "hasCanvas": false,
+      "bodyTextLen": 1167,
+      "bodyTextHash": "ec062fbd0747887e5329ad5d33ac739fdd6d30da5ddb5919df22b27bb7375889",
+      "bodyTextPrefix": "قارنها Qarenha المتاجر كيف نعمل محرك بحث ومقارنة للمنتجات ابحث م",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "قارنها — ابحث مرة واحدة وقارن قبل أن تشتري",
+      "hasCanvas": false,
+      "bodyTextLen": 1158,
+      "bodyTextHash": "ffb7ee0f4cb034e5eb780beba4233e4fc73272753b114dc777f9878b87972709",
+      "bodyTextPrefix": "قارنها Qarenha المتاجر محرك بحث ومقارنة للمنتجات ابحث مرة واحدة،",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
